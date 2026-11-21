@@ -16,6 +16,17 @@ TestCase {
         verify(!DateService.isLeapYear(1900))
         compare(DateService.daysInYear(2024), 366)
         compare(Object.keys(AnniversaryData.entries).length, 366)
+        compare(AnniversaryData.entries["01-02"].title, "初夢の日")
+        compare(AnniversaryData.entries["02-29"].title, "閏日")
+
+        var conversationalDescriptions = true
+        for (var key in AnniversaryData.entries) {
+            if (!AnniversaryData.entries[key].description.endsWith("だよ。")) {
+                conversationalDescriptions = false
+                break
+            }
+        }
+        verify(conversationalDescriptions)
     }
 
     function test_anniversaryContent() {
@@ -35,6 +46,14 @@ TestCase {
                     date,
                     DateService.keyForDate(date),
                     AnniversaryData.entries,
+                    ContentProvider.createContent)
+        compare(content.title, "初夢の日")
+        compare(content.category, "anniversary")
+
+        content = AnniversaryProvider.createContent(
+                    date,
+                    DateService.keyForDate(date),
+                    {},
                     ContentProvider.createContent)
         compare(content.category, "daily")
     }

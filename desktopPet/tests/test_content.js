@@ -32,7 +32,9 @@ assert.equal(dates.isLeapYear(2024), true);
 assert.equal(dates.daysInYear(2023), 365);
 assert.equal(dates.daysInYear(2024), 366);
 assert.equal(Object.keys(data.entries).length, 366);
+assert.equal(data.entries["01-02"].title, "初夢の日");
 assert.equal(data.entries["02-29"].title, "閏日");
+assert.ok(Object.values(data.entries).every(entry => entry.description.endsWith("だよ。")));
 
 const childrenDayDate = new Date(2025, 10, 20);
 const childrenDay = anniversary.createContent(
@@ -50,7 +52,7 @@ const fallbackDate = new Date(2025, 0, 2);
 const fallback = anniversary.createContent(
     fallbackDate,
     dates.keyForDate(fallbackDate),
-    data.entries,
+    {},
     provider.createContent
 );
 assert.equal(fallback.category, "daily");

@@ -10,7 +10,7 @@ Qt Quick / QML で作った、オフライン動作のデスクトップペッ�
 - `services/DateService.js` — 日付キー、表示用日付、うるう年の処理
 - `content/ContentProvider.js` — 各コンテンツで共通利用するデータ形式
 - `content/AnniversaryProvider.js` — 日付から記念日コンテンツを生成
-- `content/data/anniversaries.js` — 366日分の日付データ。代表的な記念日以外は「今日のひとこと」を表示
+- `content/data/anniversaries.js` — 366日分の記念日・出来事データ。説明はペットの会話口調
 - `bird.svg` — 差し替え可能なペット画像
 - `tests/test_content.js` — 日付、うるう日、コンテンツ生成のテスト
 - `tests/tst_content.qml` — Qt Quick Testによる日付・コンテンツテスト
@@ -42,4 +42,4 @@ Qt Quick Testが利用できる環境では、次のように実行できます�
 qmltestrunner -input tests
 ```
 
-テストでは任意の日付を指定し、11月20日の記念日、2月29日、うるう年判定、全366日分のデータ、およびデータ未登録日のフォールバックを確認します。
+テストでは任意の日付を指定し、11月20日や1月2日の記念日、2月29日、うるう年判定、全366日分のデータ、会話口調、およびデータ未登録時のフォールバックを確認します。
