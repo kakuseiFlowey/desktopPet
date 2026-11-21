@@ -5,7 +5,7 @@ Item {
     id: root
 
     property string text: ""
-    property string speaker: qsTr("ことり")
+    property string speaker: qsTr("ウズラ")
 
     implicitHeight: bubble.implicitHeight + 14
     implicitWidth: 280

@@ -15,7 +15,7 @@ ApplicationWindow {
     minimumWidth: 320
     minimumHeight: 500
     visible: true
-    title: qsTr("ことりと毎日")
+    title: qsTr("ウズラと毎日")
     color: "#f7f5ef"
 
     property date currentDate: new Date()
@@ -69,7 +69,7 @@ ApplicationWindow {
             }
 
             Label {
-                text: qsTr("きょうのことり")
+                text: qsTr("きょうのウズラ")
                 color: "#48675b"
                 font.pixelSize: 13
                 font.weight: Font.DemiBold
@@ -123,11 +123,5 @@ ApplicationWindow {
             onClicked: window.advanceDialogue()
         }
 
-        Label {
-            Layout.alignment: Qt.AlignHCenter
-            text: qsTr("また明日もお話ししようね")
-            color: "#a09d91"
-            font.pixelSize: 11
-        }
     }
 }
