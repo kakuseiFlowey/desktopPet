@@ -1,11 +1,13 @@
 import QtQuick
 import QtQuick.Controls.Basic
+import QtQuick.Layouts
 
 Item {
     id: root
 
     property string text: ""
     property string speaker: qsTr("ウズラ")
+    property real maximumTextHeight: 100
 
     implicitHeight: bubble.implicitHeight + 14
     implicitWidth: 280
@@ -21,7 +23,7 @@ Item {
         border.color: "#e9e6db"
         border.width: 1
 
-        Column {
+        ColumnLayout {
             id: bubbleColumn
             anchors.fill: parent
             anchors.margins: 16
@@ -32,16 +34,31 @@ Item {
                 color: "#719b86"
                 font.pixelSize: 12
                 font.weight: Font.DemiBold
+                Layout.fillWidth: true
             }
 
-            Label {
-                id: dialogueText
-                width: bubbleColumn.width
-                text: root.text
-                color: "#393b36"
-                font.pixelSize: 16
-                lineHeight: 1.35
-                wrapMode: Text.Wrap
+            Flickable {
+                id: dialogueViewport
+                Layout.fillWidth: true
+                implicitHeight: Math.min(dialogueText.implicitHeight, root.maximumTextHeight)
+                contentWidth: width
+                contentHeight: dialogueText.implicitHeight
+                clip: true
+                interactive: contentHeight > height
+                boundsBehavior: Flickable.StopAtBounds
+
+                Text {
+                    id: dialogueText
+                    width: dialogueViewport.width
+                    text: root.text
+                    color: "#393b36"
+                    font.pixelSize: 16
+                    lineHeight: 1.35
+                    wrapMode: Text.Wrap
+                    height: implicitHeight
+                }
+
+                ScrollBar.vertical: ScrollBar { policy: ScrollBar.AsNeeded }
             }
         }
 

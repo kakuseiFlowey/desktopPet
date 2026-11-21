@@ -4,17 +4,30 @@ Item {
     id: root
 
     property string mood: "idle"
+    property real characterSize: 220
 
     function startTalking() {
         mood = "talking"
         talkTimer.restart()
     }
 
+    Rectangle {
+        id: platform
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 8
+        width: Math.min(parent.width * 0.5, 180)
+        height: 3
+        radius: height / 2
+        color: "#dfd9cb"
+    }
+
     Image {
         id: petImage
         source: Qt.resolvedUrl("../assets/quail.svg")
-        anchors.centerIn: parent
-        width: Math.min(parent.width * 0.76, parent.height * 0.9, 300)
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: platform.top
+        width: Math.min(root.characterSize, parent.width * 0.76)
         height: width
         fillMode: Image.PreserveAspectFit
         smooth: true

@@ -88,6 +88,7 @@ ApplicationWindow {
             Layout.fillWidth: true
             content: window.todayContent
             dialogueIndex: window.dialogueIndex
+            maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
         }
 
         PetCharacter {
@@ -95,6 +96,7 @@ ApplicationWindow {
             Layout.fillWidth: true
             Layout.fillHeight: true
             Layout.minimumHeight: 180
+            characterSize: Math.min(width * 0.76, Math.max(170, window.height * 0.5 - 80), 300)
         }
 
         Button {
