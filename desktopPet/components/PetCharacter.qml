@@ -11,8 +11,8 @@ Item {
     }
 
     Image {
-        id: bird
-        source: Qt.resolvedUrl("../bird.svg")
+        id: petImage
+        source: Qt.resolvedUrl("../assets/quail.svg")
         anchors.centerIn: parent
         width: Math.min(parent.width * 0.76, parent.height * 0.9, 300)
         height: width
@@ -33,10 +33,10 @@ Item {
             id: talkingAnimation
             running: root.mood === "talking"
             loops: Animation.Infinite
-            NumberAnimation { target: bird; property: "scale"; to: 1.035; duration: 170; easing.type: Easing.OutQuad }
-            NumberAnimation { target: bird; property: "scale"; to: 0.99; duration: 170; easing.type: Easing.InOutQuad }
+            NumberAnimation { target: petImage; property: "scale"; to: 1.035; duration: 170; easing.type: Easing.OutQuad }
+            NumberAnimation { target: petImage; property: "scale"; to: 0.99; duration: 170; easing.type: Easing.InOutQuad }
             PauseAnimation { duration: 120 }
-            NumberAnimation { target: bird; property: "scale"; to: 1; duration: 170; easing.type: Easing.InOutQuad }
+            NumberAnimation { target: petImage; property: "scale"; to: 1; duration: 170; easing.type: Easing.InOutQuad }
             PauseAnimation { duration: 360 }
         }
     }
@@ -51,6 +51,6 @@ Item {
         if (mood === "talking")
             talkTimer.restart()
         else
-            bird.scale = 1
+            petImage.scale = 1
     }
 }

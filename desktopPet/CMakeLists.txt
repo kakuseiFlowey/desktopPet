@@ -29,7 +29,7 @@ qt_add_qml_module(appdesktopPet
         content/AnniversaryProvider.js
         content/data/anniversaries.js
     RESOURCES
-        bird.svg
+        assets/quail.svg
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
