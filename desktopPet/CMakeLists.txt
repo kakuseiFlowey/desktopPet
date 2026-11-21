@@ -23,13 +23,16 @@ qt_add_qml_module(appdesktopPet
         MainWindow.qml
         components/ContentView.qml
         components/PetCharacter.qml
+        components/SourceAnimation.qml
         components/SpeechBubble.qml
         services/DateService.js
         content/ContentProvider.js
         content/AnniversaryProvider.js
         content/data/anniversaries.js
     RESOURCES
-        assets/quail.svg
+        assets/quail.png
+        assets/speak1.png
+        assets/speak2.png
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

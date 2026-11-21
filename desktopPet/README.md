@@ -6,12 +6,12 @@ Qt Quick / QML で作った、オフライン動作のデスクトップペッ�
 
 - `main.cpp` — QMLホーム画面を起動するQtエントリーポイント
 - `MainWindow.qml` — 日付、コンテンツ、ペット、操作ボタンを配置するホーム画面
-- `components/` — 共通のコンテンツ表示、吹き出し、ペット表示と状態アニメーション
+- `components/` — 共通のコンテンツ表示、吹き出し、ペット表示と、画像・切替間隔・継続時間をまとめて指定できる再利用可能なソースアニメーション
 - `services/DateService.js` — 日付キー、表示用日付、うるう年の処理
 - `content/ContentProvider.js` — 各コンテンツで共通利用するデータ形式
 - `content/AnniversaryProvider.js` — 日付から記念日コンテンツを生成
 - `content/data/anniversaries.js` — 366日分の記念日・出来事データ。説明はペットの会話口調
-- `assets/quail.svg` — ペット画像。今後の画像素材もこのフォルダに追加
+- `assets/` — ペット画像と、しゃべるときに切り替える `speak1.svg` / `speak2.svg`。今後の画像素材もこのフォルダに追加
 - `tests/test_content.js` — 日付、うるう日、コンテンツ生成のテスト
 - `tests/tst_content.qml` — Qt Quick Testによる日付・コンテンツテスト
 
