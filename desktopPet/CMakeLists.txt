@@ -33,6 +33,8 @@ qt_add_qml_module(appdesktopPet
         assets/quail.png
         assets/speak1.png
         assets/speak2.png
+        assets/fonts/NotoSansJP-Variable.ttf
+        assets/fonts/OFL.txt
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

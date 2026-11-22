@@ -11,7 +11,7 @@ Qt Quick / QML で作った、オフライン動作のデスクトップペッ�
 - `content/ContentProvider.js` — 各コンテンツで共通利用するデータ形式
 - `content/AnniversaryProvider.js` — 日付から記念日コンテンツを生成
 - `content/data/anniversaries.js` — 366日分の記念日・出来事データ。説明はペットの会話口調
-- `assets/` — ペット画像と、しゃべるときに切り替える `speak1.svg` / `speak2.svg`。今後の画像素材もこのフォルダに追加
+- `assets/` — ペット画像としゃべり用PNG、WebAssemblyでも日本語を表示するNoto Sans JP（SIL Open Font License 1.1）。今後の画像素材もこのフォルダに追加
 - `tests/test_content.js` — 日付、うるう日、コンテンツ生成のテスト
 - `tests/tst_content.qml` — Qt Quick Testによる日付・コンテンツテスト
 
