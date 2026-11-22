@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/desktopPet/">
+    <file alias="MainWindow.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/MainWindow.qml</file>
+    <file alias="components/ContentView.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ContentView.qml</file>
+    <file alias="components/PetCharacter.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetCharacter.qml</file>
+    <file alias="components/SourceAnimation.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml</file>
+    <file alias="components/SpeechBubble.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SpeechBubble.qml</file>
+    <file alias="services/DateService.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/services/DateService.js</file>
+    <file alias="content/ContentProvider.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/content/ContentProvider.js</file>
+    <file alias="content/AnniversaryProvider.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/content/AnniversaryProvider.js</file>
+    <file alias="content/data/anniversaries.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/content/data/anniversaries.js</file>
+  </qresource>
+</RCC>
+

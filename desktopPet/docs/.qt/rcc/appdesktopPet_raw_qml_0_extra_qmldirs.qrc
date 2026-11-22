@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/desktopPet/">
+    <file alias="components/qmldir">C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/components/qmldir</file>
+    <file alias="services/qmldir">C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/services/qmldir</file>
+    <file alias="content/qmldir">C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/content/qmldir</file>
+    <file alias="content/data/qmldir">C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/content/data/qmldir</file>
+  </qresource>
+</RCC>
+
