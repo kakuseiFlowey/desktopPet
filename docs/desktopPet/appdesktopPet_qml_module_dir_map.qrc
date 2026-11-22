@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/desktopPet">C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet</file>
+
+  </qresource>
+</RCC>

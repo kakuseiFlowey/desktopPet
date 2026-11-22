@@ -1,0 +1,95 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 1000,
+                            "functionName": "imgsource",
+                            "line": 8,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "getSource",
+                            "line": 12,
+                            "message": "function without return type annotation returns call to method resolvedUrl, returning QUrl. This may prevent proper compilation to Cpp."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "startTalkingAnimation",
+                            "line": 25,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "onMoodChanged",
+                            "line": 32,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "onIndexChanged",
+                            "line": 40,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "running",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "loops",
+                            "line": 45,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 1,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "script",
+                            "line": 47,
+                            "message": "Skipped code generation for binding for property of type QQmlScriptString; nothing to do."
+                        },
+                        {
+                            "codegenResult": 1,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "script",
+                            "line": 49,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 1,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTriggered",
+                            "line": 56,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml"
+                }
+            ],
+            "moduleId": "desktopPet(appdesktopPet)"
+        }
+    ]
+}

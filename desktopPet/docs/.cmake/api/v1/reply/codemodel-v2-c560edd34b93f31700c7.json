@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bc6cf1ba89c34f45613b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "desktopPet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-74078e5cc0d7da70d05b.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-4f0ab487378b9a5d11f4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-a1ec883cb1c1fa84eeb6.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-71a9fd7c568801418057.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-8b94e5d598f554ee1008.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet-Release-fa62d9f07bea5a888303.json",
+					"name" : "appdesktopPet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_autogen-Release-520341e9b2e1004e16a0.json",
+					"name" : "appdesktopPet_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_autogen_timestamp_deps-Release-b3a109cf44d623c026ad.json",
+					"name" : "appdesktopPet_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_copy_qml-Release-001c81fb78b8ecb8556c.json",
+					"name" : "appdesktopPet_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_copy_res-Release-4388ea95f36de196ec1b.json",
+					"name" : "appdesktopPet_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_qmllint-Release-129420f2cd7ad9707e62.json",
+					"name" : "appdesktopPet_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_qmllint_json-Release-075ee1516b21f096b2b2.json",
+					"name" : "appdesktopPet_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_qmllint_module-Release-70c0bd813f84d4716490.json",
+					"name" : "appdesktopPet_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdesktopPet_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdesktopPet_qmltyperegistration-Release-85563ff86cebb664e3d8.json",
+					"name" : "appdesktopPet_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Release-fbb9a11a92fdc7899dad.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Release-76b241c3928fc98785ea.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_finalqtconf_appdesktopPet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_finalqtconf_appdesktopPet-Release-cd9c5ce56ed8648d877b.json",
+					"name" : "generate_finalqtconf_appdesktopPet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Release-099141841923813bfd30.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appdesktopPet_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appdesktopPet_aotstats_target-Release-b46958d85ae41e66de0b.json",
+					"name" : "module_appdesktopPet_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs",
+		"source" : "C:/Users/satoshi/Documents/desktopPet/desktopPet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

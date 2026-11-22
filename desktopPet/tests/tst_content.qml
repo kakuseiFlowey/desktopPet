@@ -43,6 +43,16 @@ TestCase {
         }
     }
 
+    Components.SourceAnimation {
+        id: sourceSequence
+    }
+
+    SignalSpy {
+        id: sourceSequenceFinishedSpy
+        target: sourceSequence
+        signalName: "talkingFinished"
+    }
+
     function test_dateService() {
         compare(DateService.keyForDate(new Date(2024, 1, 29)), "02-29")
         compare(DateService.keyForDate(new Date(2025, 10, 20)), "11-20")
@@ -110,5 +120,23 @@ TestCase {
 
         compare(pet["y"] + pet["height"], baseline)
         compare(pet["characterSize"], 170)
+    }
+
+    function test_sourceAnimationCyclesFrames() {
+        sourceSequence.mood = "talking"
+        sourceSequence.startTalkingAnimation()
+        tryCompare(sourceSequence, "index", 1, 1000)
+        compare(sourceSequence.getSource(), Qt.resolvedUrl("../assets/speak2.svg"))
+        tryCompare(sourceSequence, "index", 0, 1000)
+        compare(sourceSequence.getSource(), Qt.resolvedUrl("../assets/speak1.svg"))
+        sourceSequence.mood = "idle"
+    }
+
+    function test_sourceAnimationFinishesAtConfiguredDuration() {
+        sourceSequence.mood = "talking"
+        sourceSequence.startTalkingAnimation()
+        sourceSequenceFinishedSpy.clear()
+        tryCompare(sourceSequenceFinishedSpy, "count", 1, 5000)
+        sourceSequence.mood = "idle"
     }
 }

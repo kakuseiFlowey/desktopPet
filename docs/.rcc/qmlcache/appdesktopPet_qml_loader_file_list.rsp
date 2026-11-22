@@ -1,0 +1,17 @@
+--resource
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc
+--resource
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc
+--resource
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc
+--resource
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/desktopPet/MainWindow.qml
+/qt/qml/desktopPet/components/ContentView.qml
+/qt/qml/desktopPet/components/PetCharacter.qml
+/qt/qml/desktopPet/components/SourceAnimation.qml
+/qt/qml/desktopPet/components/SpeechBubble.qml
+/qt/qml/desktopPet/services/DateService.js
+/qt/qml/desktopPet/content/ContentProvider.js
+/qt/qml/desktopPet/content/AnniversaryProvider.js
+/qt/qml/desktopPet/content/data/anniversaries.js

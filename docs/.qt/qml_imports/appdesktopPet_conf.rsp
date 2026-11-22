@@ -1,0 +1,16 @@
+-rootPath
+C:/Users/satoshi/Documents/desktopPet/desktopPet
+-cmake-output
+-output-file
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/qml_imports/appdesktopPet_conf.cmake
+-importPath
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs
+-importPath
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet
+-importPath
+C:/Qt/6.12.0/wasm_singlethread/qml
+-qrcFiles
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc
+C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc

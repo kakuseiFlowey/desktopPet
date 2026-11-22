@@ -1,0 +1,13 @@
+module desktopPet
+typeinfo appdesktopPet.qmltypes
+prefer :/qt/qml/desktopPet/
+MainWindow 254.0 MainWindow.qml
+ContentView 254.0 components/ContentView.qml
+PetCharacter 254.0 components/PetCharacter.qml
+SourceAnimation 254.0 components/SourceAnimation.qml
+SpeechBubble 254.0 components/SpeechBubble.qml
+DateService 254.0 services/DateService.js
+ContentProvider 254.0 content/ContentProvider.js
+AnniversaryProvider 254.0 content/AnniversaryProvider.js
+depends QtQuick
+
