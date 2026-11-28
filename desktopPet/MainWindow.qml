@@ -19,6 +19,10 @@ ApplicationWindow {
 
     property date currentDate: new Date()
     property string currentModeId: "everyday"
+    readonly property real petCharacterSize: Math.min(
+                                                 modeStack.width * 0.76,
+                                                 Math.max(170, window.height * 0.5 - 80),
+                                                 300)
 
     Timer {
         interval: 60000
@@ -71,6 +75,7 @@ ApplicationWindow {
         }
 
         StackLayout {
+            id: modeStack
             Layout.fillWidth: true
             Layout.fillHeight: true
             currentIndex: window.currentModeId === "walk" ? 1 : 0
@@ -79,12 +84,13 @@ ApplicationWindow {
                 currentDate: window.currentDate
                 active: window.currentModeId === "everyday"
                 maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
+                characterSize: window.petCharacterSize
             }
 
             WalkMode {
                 active: window.currentModeId === "walk"
                 maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
-                characterSize: Math.min(width * 0.76, Math.max(170, window.height * 0.5 - 80), 300)
+                characterSize: window.petCharacterSize
             }
         }
     }

@@ -8,12 +8,18 @@ Item {
     property real characterSize: 220
 
     function startTalking() {
+        touchAnimation.stop()
         mood = "talking"
         sourceAnimation.startTalkingAnimation()
     }
 
     function stopTalking() {
         mood = "idle"
+    }
+
+    function startTouchAnimation() {
+        stopTalking()
+        touchAnimation.restart()
     }
 
     SourceAnimation {
@@ -32,6 +38,6 @@ Item {
         anchors.fill: parent
         characterSize: root.characterSize
         characterSource: touchAnimation.imgsource
-        onPetTapped: touchAnimation.restart()
+        onPetTapped: root.startTouchAnimation()
     }
 }

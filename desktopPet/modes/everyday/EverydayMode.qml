@@ -12,6 +12,7 @@ Item {
     property date currentDate: new Date()
     property bool active: false
     property real maximumDialogueHeight: 100
+    property real characterSize: 220
     property var todayContent: ({})
     property int dialogueIndex: 0
 
@@ -57,7 +58,7 @@ Item {
             Layout.fillHeight: true
             Layout.minimumHeight: 180
             active: root.active
-            characterSize: Math.min(width * 0.76, Math.max(170, root.height * 0.5 - 80), 300)
+            characterSize: root.characterSize
         }
 
         PrimaryActionButton {
