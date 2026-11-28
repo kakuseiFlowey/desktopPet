@@ -56,6 +56,7 @@ Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
             Layout.minimumHeight: 180
+            active: root.active
             characterSize: Math.min(width * 0.76, Math.max(170, root.height * 0.5 - 80), 300)
         }
 

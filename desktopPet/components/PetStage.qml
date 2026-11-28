@@ -6,6 +6,8 @@ Item {
     property url characterSource: Qt.resolvedUrl("../assets/quail.png")
     property real characterSize: 220
 
+    signal petTapped
+
     Rectangle {
         id: platform
         anchors.horizontalCenter: parent.horizontalCenter
@@ -27,5 +29,9 @@ Item {
         smooth: true
         mirror: true
         transformOrigin: Item.Bottom
+
+        TapHandler {
+            onTapped: root.petTapped()
+        }
     }
 }

@@ -20,11 +20,18 @@ Item {
             stepping = false
     }
 
+    TouchAnimation {
+        id: touchAnimation
+        active: root.active
+        baseSource: root.stepping
+                    ? Qt.resolvedUrl("../../assets/step.png")
+                    : Qt.resolvedUrl("../../assets/quail.png")
+    }
+
     PetStage {
         anchors.fill: parent
         characterSize: root.characterSize
-        characterSource: root.stepping
-                         ? Qt.resolvedUrl("../../assets/step.png")
-                         : Qt.resolvedUrl("../../assets/quail.png")
+        characterSource: touchAnimation.imgsource
+        onPetTapped: touchAnimation.restart()
     }
 }
