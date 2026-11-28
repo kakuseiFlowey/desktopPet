@@ -824,42 +824,6 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetChar
   C:\Qt\6.12.0\wasm_singlethread\include\QtCore\qspan.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cassert \
   C:\Qt\6.12.0\wasm_singlethread\include\QtCore\q20iterator.h \
-  C:\Qt\6.12.0\wasm_singlethread\include\QtCore\qrandom.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\random \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\bernoulli_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\uniform_real_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\generate_canonical.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\binomial_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\cauchy_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\chi_squared_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\gamma_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\exponential_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\default_random_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\linear_congruential_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\is_seed_sequence.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\discard_block_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\discrete_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\extreme_value_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\fisher_f_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\geometric_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\negative_binomial_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\poisson_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\clamp_to_integral.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\normal_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\independent_bits_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\knuth_b.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\shuffle_order_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\lognormal_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\mersenne_twister_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\piecewise_constant_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\piecewise_linear_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\random_device.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\ranlux.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\subtract_with_carry_engine.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\seed_seq.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\student_t_distribution.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\uniform_random_bit_generator.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__random\weibull_distribution.h \
   C:\Qt\6.12.0\wasm_singlethread\include\QtCore\qtimezone.h \
   C:\Qt\6.12.0\wasm_singlethread\include\QtQml\qjsengine.h \
   C:\Qt\6.12.0\wasm_singlethread\include\QtQml\qjsmanagedvalue.h \

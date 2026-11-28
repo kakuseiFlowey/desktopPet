@@ -17,9 +17,17 @@ C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_
 C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 C:/Users/satoshi/Documents/desktopPet/desktopPet/MainWindow.qml
 C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ContentView.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ModeSelector.qml
 C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetCharacter.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetStage.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PrimaryActionButton.qml
 C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml
 C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SpeechBubble.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/components/TouchAnimation.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/everyday/EverydayMode.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkBackground.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkMode.qml
+C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkPet.qml
 C:/Users/satoshi/Documents/desktopPet/desktopPet/services/DateService.js
 C:/Users/satoshi/Documents/desktopPet/desktopPet/content/ContentProvider.js
 C:/Users/satoshi/Documents/desktopPet/desktopPet/content/AnniversaryProvider.js

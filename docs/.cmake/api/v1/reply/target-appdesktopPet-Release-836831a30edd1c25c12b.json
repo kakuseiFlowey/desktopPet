@@ -39,8 +39,8 @@
 			"qt_find_package_system_or_bundled",
 			"_qt_internal_find_third_party_dependencies",
 			"add_dependencies",
-			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"_qt_internal_qml_copy_files_to_build_dir",
+			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -190,7 +190,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
@@ -1599,7 +1599,7 @@
 			{
 				"command" : 12,
 				"file" : 1,
-				"line" : 51,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -1956,18 +1956,18 @@
 			},
 			{
 				"command" : 29,
-				"file" : 102,
-				"line" : 1,
-				"parent" : 6
+				"file" : 87,
+				"line" : 1055,
+				"parent" : 265
 			},
 			{
 				"command" : 28,
 				"file" : 87,
-				"line" : 1474,
+				"line" : 3335,
 				"parent" : 331
 			},
 			{
-				"command" : 30,
+				"command" : 29,
 				"file" : 87,
 				"line" : 1049,
 				"parent" : 265
@@ -1980,14 +1980,14 @@
 			},
 			{
 				"command" : 30,
-				"file" : 87,
-				"line" : 1055,
-				"parent" : 265
+				"file" : 102,
+				"line" : 1,
+				"parent" : 6
 			},
 			{
 				"command" : 28,
 				"file" : 87,
-				"line" : 3335,
+				"line" : 1474,
 				"parent" : 335
 			},
 			{
@@ -2177,6 +2177,102 @@
 				"parent" : 347
 			},
 			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 3813,
+				"parent" : 347
+			},
+			{
+				"command" : 33,
+				"file" : 87,
+				"line" : 4005,
+				"parent" : 347
+			},
+			{
 				"command" : 37,
 				"file" : 87,
 				"line" : 4092,
@@ -2186,19 +2282,19 @@
 				"command" : 36,
 				"file" : 0,
 				"line" : 419,
-				"parent" : 368
+				"parent" : 384
 			},
 			{
 				"command" : 35,
 				"file" : 0,
 				"line" : 2749,
-				"parent" : 369
+				"parent" : 385
 			},
 			{
 				"command" : 33,
 				"file" : 0,
 				"line" : 2289,
-				"parent" : 370
+				"parent" : 386
 			},
 			{
 				"command" : 37,
@@ -2210,19 +2306,19 @@
 				"command" : 36,
 				"file" : 0,
 				"line" : 419,
-				"parent" : 372
+				"parent" : 388
 			},
 			{
 				"command" : 35,
 				"file" : 0,
 				"line" : 2749,
-				"parent" : 373
+				"parent" : 389
 			},
 			{
 				"command" : 33,
 				"file" : 0,
 				"line" : 2289,
-				"parent" : 374
+				"parent" : 390
 			},
 			{
 				"command" : 37,
@@ -2234,19 +2330,19 @@
 				"command" : 36,
 				"file" : 0,
 				"line" : 419,
-				"parent" : 376
+				"parent" : 392
 			},
 			{
 				"command" : 35,
 				"file" : 0,
 				"line" : 2749,
-				"parent" : 377
+				"parent" : 393
 			},
 			{
 				"command" : 33,
 				"file" : 0,
 				"line" : 2289,
-				"parent" : 378
+				"parent" : 394
 			},
 			{
 				"command" : 40,
@@ -2258,7 +2354,7 @@
 				"command" : 33,
 				"file" : 0,
 				"line" : 2414,
-				"parent" : 380
+				"parent" : 396
 			}
 		]
 	},
@@ -2387,9 +2483,17 @@
 				19,
 				21,
 				23,
-				24,
 				25,
-				26
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				40,
+				41,
+				42
 			]
 		}
 	],
@@ -2397,7 +2501,7 @@
 	[
 		{
 			"backtrace" : 332,
-			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
+			"id" : "appdesktopPet_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 334,
@@ -2405,7 +2509,7 @@
 		},
 		{
 			"backtrace" : 336,
-			"id" : "appdesktopPet_copy_res::@6890427a1f51a3e7e1df"
+			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
@@ -3104,29 +3208,37 @@
 				19,
 				21,
 				23,
-				24,
 				25,
-				26,
 				27,
 				29,
-				30,
-				36,
+				31,
+				33,
+				35,
+				37,
+				39,
+				40,
 				41,
-				61,
+				42,
+				43,
+				45,
+				46,
+				55,
 				62,
-				63,
-				64,
-				65,
-				66,
-				67,
-				68,
-				69,
-				70,
-				71,
-				72,
-				73,
-				74,
-				75
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104
 			]
 		},
 		{
@@ -3142,34 +3254,22 @@
 				16,
 				18,
 				20,
-				22
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				28,
-				31,
-				32,
-				33,
-				34,
-				35,
-				37,
-				38,
-				39,
-				40
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
-				42,
-				43,
 				44,
-				45,
-				46,
 				47,
 				48,
 				49,
@@ -3178,25 +3278,58 @@
 				52,
 				53,
 				54,
-				55,
 				56,
 				57,
 				58,
 				59,
-				60
+				60,
+				61
 			]
 		},
 		{
-			"name" : "Object Libraries",
+			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
 				76,
 				77,
 				78,
 				79,
 				80,
 				81,
-				82
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
 			]
 		}
 	],
@@ -3268,184 +3401,307 @@
 		},
 		{
 			"backtrace" : 354,
-			"path" : "components/PetCharacter.qml",
+			"path" : "components/ModeSelector.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 355,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 356,
-			"path" : "components/SourceAnimation.qml",
+			"path" : "components/PetCharacter.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 357,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 358,
-			"path" : "components/SpeechBubble.qml",
+			"path" : "components/PetStage.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 359,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 360,
-			"path" : "services/DateService.js",
+			"path" : "components/PrimaryActionButton.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 361,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_services_DateService_js.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 362,
-			"path" : "content/ContentProvider.js",
+			"path" : "components/SourceAnimation.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 363,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 364,
-			"path" : "content/AnniversaryProvider.js",
+			"path" : "components/SpeechBubble.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 365,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp",
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 366,
-			"path" : "content/data/anniversaries.js",
+			"path" : "components/TouchAnimation.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 367,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 368,
+			"path" : "modes/everyday/EverydayMode.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 369,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 370,
+			"path" : "modes/walk/WalkBackground.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 371,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 372,
+			"path" : "modes/walk/WalkMode.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 373,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 374,
+			"path" : "modes/walk/WalkPet.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 375,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 376,
+			"path" : "services/DateService.js",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 377,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_services_DateService_js.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 378,
+			"path" : "content/ContentProvider.js",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 379,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 380,
+			"path" : "content/AnniversaryProvider.js",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 381,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 382,
+			"path" : "content/data/anniversaries.js",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 383,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
 			"path" : "docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 371,
+			"backtrace" : 387,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 375,
+			"backtrace" : 391,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/qrc_appdesktopPet_raw_res_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 379,
+			"backtrace" : 395,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/qmake_desktopPet.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/desktopPet/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/appdesktopPet_raw_res_0.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"path" : "assets/quail.png",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
+			"path" : "assets/step.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 397,
+			"path" : "assets/watch.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 397,
+			"path" : "assets/walk_background.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 397,
 			"path" : "assets/speak1.png",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"path" : "assets/speak2.png",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"path" : "assets/fonts/NotoSansJP-Variable.ttf",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"path" : "assets/fonts/OFL.txt",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/desktopPet/components/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
+			"isGenerated" : true,
+			"path" : "docs/desktopPet/modes/everyday/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 397,
+			"isGenerated" : true,
+			"path" : "docs/desktopPet/modes/walk/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/desktopPet/services/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/desktopPet/content/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 381,
+			"backtrace" : 397,
 			"isGenerated" : true,
 			"path" : "docs/desktopPet/content/data/qmldir",
 			"sourceGroupIndex" : 2
@@ -3495,7 +3751,25 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
 			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{
@@ -3508,6 +3782,36 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

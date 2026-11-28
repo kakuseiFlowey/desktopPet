@@ -10,39 +10,23 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "startTalking",
-                            "line": 9,
+                            "line": 10,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 16,
-                            "durationMicroseconds": 3000,
-                            "functionName": "width",
-                            "line": 19,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
+                            "column": 5,
                             "durationMicroseconds": 0,
-                            "functionName": "radius",
-                            "line": 21,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalCenter",
+                            "functionName": "stopTalking",
                             "line": 16,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 25,
+                            "column": 5,
                             "durationMicroseconds": 0,
-                            "functionName": "bottom",
-                            "line": 17,
+                            "functionName": "startTouchAnimation",
+                            "line": 20,
                             "message": ""
                         },
                         {
@@ -65,56 +49,48 @@
                             "codegenResult": 0,
                             "column": 17,
                             "durationMicroseconds": 0,
-                            "functionName": "source",
+                            "functionName": "active",
                             "line": 33,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 16,
+                            "column": 21,
                             "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 36,
+                            "functionName": "baseSource",
+                            "line": 34,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 17,
+                            "column": 24,
                             "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 37,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 19,
-                            "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 38,
+                            "functionName": "characterSize",
+                            "line": 39,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 26,
                             "durationMicroseconds": 0,
-                            "functionName": "transformOrigin",
+                            "functionName": "characterSource",
                             "line": 40,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 35,
+                            "column": 22,
                             "durationMicroseconds": 0,
-                            "functionName": "horizontalCenter",
-                            "line": 34,
+                            "functionName": "onPetTapped",
+                            "line": 41,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 25,
+                            "column": 23,
                             "durationMicroseconds": 0,
-                            "functionName": "bottom",
-                            "line": 35,
+                            "functionName": "fill",
+                            "line": 38,
                             "message": ""
                         }
                     ],

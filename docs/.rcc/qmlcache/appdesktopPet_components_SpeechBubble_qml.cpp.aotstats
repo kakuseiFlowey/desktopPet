@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "wrapMode",
                             "line": 57,
                             "message": ""

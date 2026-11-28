@@ -136,6 +136,21 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats
 
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ModeSelector.qml
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp, .rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/ModeSelector.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ModeSelector.qml
+
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats
+
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetCharacter.qml
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
@@ -144,12 +159,42 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PetCharacter.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetCharacter.qml
 
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetStage.qml
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PetStage.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetStage.qml
+
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PrimaryActionButton.qml
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PrimaryActionButton.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PrimaryActionButton.qml
+
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats
 
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SourceAnimation.qml
@@ -159,7 +204,7 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/SourceAnimation.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml
 
@@ -174,12 +219,87 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/SpeechBubble.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SpeechBubble.qml
 
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\TouchAnimation.qml
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/TouchAnimation.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/TouchAnimation.qml
+
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\everyday\EverydayMode.qml
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating .rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/everyday/EverydayMode.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/everyday/EverydayMode.qml
+
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkBackground.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkBackground.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkBackground.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkMode.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkMode.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkMode.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkPet.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkPet.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkPet.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats
 
 .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
 .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\services\DateService.js
@@ -189,7 +309,7 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appdesktopPet_services_DateService_js.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating .rcc/qmlcache/appdesktopPet_services_DateService_js.cpp"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/services/DateService.js -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_services_DateService_js.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/services/DateService.js
 
@@ -201,7 +321,7 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating .rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/content/ContentProvider.js -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/content/ContentProvider.js
 
@@ -213,7 +333,7 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating .rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/content/AnniversaryProvider.js -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/content/AnniversaryProvider.js
 
@@ -225,64 +345,77 @@ desktopPet\appdesktopPet.qmltypes: appdesktoppet_qmltyperegistrations.cpp
 .rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating .rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/content/data/anniversaries.js -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/content/data/anniversaries.js
 
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\MainWindow.qml
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ContentView.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ModeSelector.qml
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetCharacter.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetStage.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PrimaryActionButton.qml
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SourceAnimation.qml
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SpeechBubble.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\TouchAnimation.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\everyday\EverydayMode.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkBackground.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkMode.qml
+.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkPet.qml
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\services\DateService.js
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\ContentProvider.js
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\AnniversaryProvider.js
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\data\anniversaries.js
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
 .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp: C:\Qt\6.12.0\mingw_64\bin\rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running rcc for resource appdesktopPet_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running rcc for resource appdesktopPet_raw_qml_0"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0.cpp --name appdesktopPet_raw_qml_0 C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --no-zstd
 
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\quail.png
+.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\step.png
+.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\watch.png
+.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\walk_background.png
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\speak1.png
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\speak2.png
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\fonts\NotoSansJP-Variable.ttf
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\fonts\OFL.txt
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
 .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp: C:\Qt\6.12.0\mingw_64\bin\rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running rcc for resource appdesktopPet_raw_res_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running rcc for resource appdesktopPet_raw_res_0"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qrc_appdesktopPet_raw_res_0.cpp --name appdesktopPet_raw_res_0 C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --no-zstd
 
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\components\qmldir
+.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\modes\everyday\qmldir
+.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\modes\walk\qmldir
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\services\qmldir
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\content\qmldir
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: desktopPet\content\data\qmldir
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp: C:\Qt\6.12.0\mingw_64\bin\rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running rcc for resource appdesktopPet_raw_qml_0_extra_qmldirs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running rcc for resource appdesktopPet_raw_qml_0_extra_qmldirs"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp --name appdesktopPet_raw_qml_0_extra_qmldirs C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --no-zstd
 
 appdesktopPet_autogen\timestamp: C:\Qt\6.12.0\mingw_64\bin\moc.exe
 appdesktopPet_autogen\timestamp: C:\Qt\6.12.0\mingw_64\bin\uic.exe
 appdesktopPet_autogen\timestamp: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Automatic MOC and UIC for target appdesktopPet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Automatic MOC and UIC for target appdesktopPet"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/CMakeFiles/appdesktopPet_autogen.dir/AutogenInfo.json Release
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/appdesktopPet_autogen/timestamp
 
 meta_types\appdesktopPet_json_file_list.txt: C:\Qt\6.12.0\mingw_64\bin\cmake_automoc_parser.exe
 meta_types\appdesktopPet_json_file_list.txt: appdesktopPet_autogen\timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running AUTOMOC file extraction for target appdesktopPet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running AUTOMOC file extraction for target appdesktopPet"
 	C:\Qt\6.12.0\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/CMakeFiles/appdesktopPet_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/CMakeFiles/appdesktopPet_autogen.dir/AutogenInfo.json --output-file-path C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/meta_types/appdesktopPet_json_file_list.txt --timestamp-file-path C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/meta_types/appdesktopPet_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/appdesktopPet_autogen/include
 
 meta_types\qt6appdesktoppet_metatypes.json: meta_types\qt6appdesktoppet_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating meta_types/qt6appdesktoppet_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating meta_types/qt6appdesktoppet_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
 CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o: appdesktopPet_autogen\mocs_compilation.cpp
 CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appdesktopPet.dir/appdesktopPet_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appdesktopPet.dir/appdesktopPet_autogen/mocs_compilation.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o -MF CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o.d -o CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\appdesktopPet_autogen\mocs_compilation.cpp
 
 CMakeFiles\appdesktopPet.dir\appdesktopPet_autogen\mocs_compilation.cpp.i: cmake_force
@@ -297,7 +430,7 @@ CMakeFiles\appdesktopPet.dir\main.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
 CMakeFiles\appdesktopPet.dir\main.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\main.cpp.o: C:\Users\satoshi\Documents\desktopPet\desktopPet\main.cpp
 CMakeFiles\appdesktopPet.dir\main.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appdesktopPet.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appdesktopPet.dir/main.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\main.cpp.o -MF CMakeFiles\appdesktopPet.dir\main.cpp.o.d -o CMakeFiles\appdesktopPet.dir\main.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\main.cpp
 
 CMakeFiles\appdesktopPet.dir\main.cpp.i: cmake_force
@@ -312,7 +445,7 @@ CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o: CMakeFile
 CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o: appdesktoppet_qmltyperegistrations.cpp
 CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appdesktopPet.dir/appdesktoppet_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appdesktopPet.dir/appdesktoppet_qmltyperegistrations.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o -MF CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o.d -o CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\appdesktoppet_qmltyperegistrations.cpp
 
 CMakeFiles\appdesktopPet.dir\appdesktoppet_qmltyperegistrations.cpp.i: cmake_force
@@ -327,7 +460,7 @@ CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o: CMakeFiles
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o: .qt\rcc\qrc_qmake_desktopPet.cpp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_qmake_desktopPet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_qmake_desktopPet.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.qt\rcc\qrc_qmake_desktopPet.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet.cpp.i: cmake_force
@@ -342,7 +475,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o: .rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_qmlcache_loader.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.i: cmake_force
@@ -357,7 +490,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o: .rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_MainWindow_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_MainWindow_qml.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.i: cmake_force
@@ -372,7 +505,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_Content
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.i: cmake_force
@@ -383,11 +516,26 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_Content
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.cpp.s"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.s
 
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s
+
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.i: cmake_force
@@ -398,11 +546,41 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetChar
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.s"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.s
 
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s
+
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.i: cmake_force
@@ -417,7 +595,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechB
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.i: cmake_force
@@ -428,11 +606,86 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechB
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.s"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.s
 
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.o"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.i"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp > CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i
+
+CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.s"
+	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s
+
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o: CMakeFiles\appdesktopPet.dir\flags.make
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o: .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_services_DateService_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_services_DateService_js.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.i: cmake_force
@@ -447,7 +700,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentPro
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o: .rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_ContentProvider_js.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.i: cmake_force
@@ -462,7 +715,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_Anniversar
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o: .rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.i: cmake_force
@@ -477,7 +730,7 @@ CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniv
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o: .rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.i: cmake_force
@@ -492,7 +745,7 @@ CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o: CMa
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o: .qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0.cpp.i: cmake_force
@@ -507,7 +760,7 @@ CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o: CMa
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o: .qt\rcc\qrc_appdesktopPet_raw_res_0.cpp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_res_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_res_0.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_res_0.cpp.i: cmake_force
@@ -522,7 +775,7 @@ CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmld
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles\appdesktopPet.dir\includes_CXX.rsp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o: .qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles\appdesktopPet.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/appdesktopPet.dir/docs/.qt/rcc/qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o"
 	C:\emsdk\upstream\emscripten\em++.bat $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o -MF CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o.d -o CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.o -c C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp
 
 CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_appdesktopPet_raw_qml_0_extra_qmldirs.cpp.i: cmake_force
@@ -542,9 +795,17 @@ appdesktopPet_OBJECTS = \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o" \
+"CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o" \
 "CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o" \
@@ -570,9 +831,17 @@ appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.qt\rcc\qrc_qmake_desktopPet
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o
+appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_services_DateService_js.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp.o
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o
@@ -694,7 +963,7 @@ appdesktopPet.js: C:\Qt\6.12.0\wasm_singlethread\lib\libQt6BundledZLIB.a
 appdesktopPet.js: C:\Qt\6.12.0\wasm_singlethread\lib\libQt6BundledPcre2.a
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\linkLibs.rsp
 appdesktopPet.js: CMakeFiles\appdesktopPet.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable appdesktopPet.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX executable appdesktopPet.js"
 	C:\emsdk\upstream\emscripten\em++.bat -O3 -DNDEBUG -s MODULARIZE=1 -s EXPORT_NAME=appdesktopPet_entry -s EXPORTED_RUNTIME_METHODS=UTF16ToString,stringToUTF16,JSEvents,specialHTMLTargets,FS,callMain -s INITIAL_MEMORY=50MB -s MAXIMUM_MEMORY=4GB -s MAX_WEBGL_VERSION=2 -s WASM_BIGINT=1 -s STACK_SIZE=5MB -s ALLOW_MEMORY_GROWTH -sERROR_ON_UNDEFINED_SYMBOLS=1 -sFETCH @CMakeFiles\appdesktopPet.dir\objects1.rsp -o appdesktopPet.js @CMakeFiles\appdesktopPet.dir\linkLibs.rsp
 
 # Rule to build all files generated by this target.
@@ -713,15 +982,31 @@ CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_MainWindow_qml.
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_content_ContentProvider_js.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp
 CMakeFiles\appdesktopPet.dir\depend: .rcc\qmlcache\appdesktopPet_services_DateService_js.cpp
 CMakeFiles\appdesktopPet.dir\depend: appdesktopPet_autogen\timestamp

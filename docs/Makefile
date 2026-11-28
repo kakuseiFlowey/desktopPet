@@ -589,6 +589,30 @@ docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.s
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.s
 
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.i: docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.s: docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.s
+
 docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.o
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.o
 
@@ -612,6 +636,54 @@ docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.s: docs\.rcc\qmlcac
 docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.s
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.i: docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.s: docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.i: docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.s: docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.s
 
 docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.o
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.o
@@ -660,6 +732,30 @@ docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.s: docs\.rcc\qmlcac
 docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.s
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.o: docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.i: docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.s: docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.s
 
 docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.o: docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.cpp.o
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_content_AnniversaryProvider_js.o
@@ -732,6 +828,102 @@ docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.s: docs\.rcc\qmlc
 docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.s
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_content_data_anniversaries_js.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.o: docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.i: docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.s: docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.o: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.i: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.s: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.o: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.i: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.s: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.s
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.o: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.o
+
+# target to build an object file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.o
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.i: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.i
+
+# target to preprocess a source file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.i
+
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.s: docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.s
+
+# target to generate assembly for a file
+docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appdesktopPet.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\appdesktopPet.dir\docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s
+.PHONY : docs\.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.s
 
 docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.o: docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.cpp.o
 .PHONY : docs\.rcc\qmlcache\appdesktopPet_qmlcache_loader.o
@@ -860,15 +1052,27 @@ help:
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.s
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.s
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.s
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.s
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_AnniversaryProvider_js.s
@@ -878,6 +1082,18 @@ help:
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_content_data_anniversaries_js.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.s
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.o
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.i
+	@echo ... docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.s
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_qmlcache_loader.o
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_qmlcache_loader.i
 	@echo ... docs/.rcc/qmlcache/appdesktopPet_qmlcache_loader.s

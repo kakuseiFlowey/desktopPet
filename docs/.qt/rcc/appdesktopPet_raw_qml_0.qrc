@@ -2,9 +2,17 @@
   <qresource prefix="/qt/qml/desktopPet/">
     <file alias="MainWindow.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/MainWindow.qml</file>
     <file alias="components/ContentView.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ContentView.qml</file>
+    <file alias="components/ModeSelector.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ModeSelector.qml</file>
     <file alias="components/PetCharacter.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetCharacter.qml</file>
+    <file alias="components/PetStage.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetStage.qml</file>
+    <file alias="components/PrimaryActionButton.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PrimaryActionButton.qml</file>
     <file alias="components/SourceAnimation.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml</file>
     <file alias="components/SpeechBubble.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SpeechBubble.qml</file>
+    <file alias="components/TouchAnimation.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/components/TouchAnimation.qml</file>
+    <file alias="modes/everyday/EverydayMode.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/everyday/EverydayMode.qml</file>
+    <file alias="modes/walk/WalkBackground.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkBackground.qml</file>
+    <file alias="modes/walk/WalkMode.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkMode.qml</file>
+    <file alias="modes/walk/WalkPet.qml">C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkPet.qml</file>
     <file alias="services/DateService.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/services/DateService.js</file>
     <file alias="content/ContentProvider.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/content/ContentProvider.js</file>
     <file alias="content/AnniversaryProvider.js">C:/Users/satoshi/Documents/desktopPet/desktopPet/content/AnniversaryProvider.js</file>

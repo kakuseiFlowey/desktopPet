@@ -5,8 +5,7 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"_qt_internal_deferred_aotstats_setup",
-			"add_dependencies"
+			"_qt_internal_deferred_aotstats_setup"
 		],
 		"files" : 
 		[
@@ -33,13 +32,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1316,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 1321,
+				"line" : 1377,
 				"parent" : 2
 			}
 		]
@@ -47,8 +40,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 4,
-			"id" : "appdesktopPet_qmltyperegistration::@6890427a1f51a3e7e1df"
+			"id" : "module_appdesktopPet_aotstats_target::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "appdesktopPet_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
@@ -58,8 +50,8 @@
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "module_appdesktopPet_aotstats_target::@6890427a1f51a3e7e1df",
-	"name" : "module_appdesktopPet_aotstats_target",
+	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+	"name" : "all_aotstats",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +81,16 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
 			]
 		}
 	],
@@ -98,13 +99,19 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "docs/CMakeFiles/module_appdesktopPet_aotstats_target",
+			"path" : "docs/CMakeFiles/all_aotstats",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "docs/CMakeFiles/module_appdesktopPet_aotstats_target.rule",
+			"path" : "docs/CMakeFiles/all_aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/all_aotstats.aotstats.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -128,7 +135,25 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
 			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -141,6 +166,36 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

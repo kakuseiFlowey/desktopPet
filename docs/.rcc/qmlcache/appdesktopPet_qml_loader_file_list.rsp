@@ -8,9 +8,17 @@ C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_
 C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 /qt/qml/desktopPet/MainWindow.qml
 /qt/qml/desktopPet/components/ContentView.qml
+/qt/qml/desktopPet/components/ModeSelector.qml
 /qt/qml/desktopPet/components/PetCharacter.qml
+/qt/qml/desktopPet/components/PetStage.qml
+/qt/qml/desktopPet/components/PrimaryActionButton.qml
 /qt/qml/desktopPet/components/SourceAnimation.qml
 /qt/qml/desktopPet/components/SpeechBubble.qml
+/qt/qml/desktopPet/components/TouchAnimation.qml
+/qt/qml/desktopPet/modes/everyday/EverydayMode.qml
+/qt/qml/desktopPet/modes/walk/WalkBackground.qml
+/qt/qml/desktopPet/modes/walk/WalkMode.qml
+/qt/qml/desktopPet/modes/walk/WalkPet.qml
 /qt/qml/desktopPet/services/DateService.js
 /qt/qml/desktopPet/content/ContentProvider.js
 /qt/qml/desktopPet/content/AnniversaryProvider.js

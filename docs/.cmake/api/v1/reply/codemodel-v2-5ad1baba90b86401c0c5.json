@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-bc6cf1ba89c34f45613b.json",
+					"jsonFile" : "directory-.-Release-d9b7d745e885992063a5.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -76,7 +76,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Release-74078e5cc0d7da70d05b.json",
+					"jsonFile" : "target-all_aotstats-Release-2bd26b031d610a9c195d.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
@@ -111,7 +111,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appdesktopPet::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appdesktopPet-Release-6f9bbded63df9b245ae7.json",
+					"jsonFile" : "target-appdesktopPet-Release-836831a30edd1c25c12b.json",
 					"name" : "appdesktopPet",
 					"projectIndex" : 0
 				},
@@ -125,7 +125,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appdesktopPet_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appdesktopPet_autogen_timestamp_deps-Release-f193035a40cb8a83e688.json",
+					"jsonFile" : "target-appdesktopPet_autogen_timestamp_deps-Release-bfc254757de6deb7180f.json",
 					"name" : "appdesktopPet_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -202,7 +202,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "module_appdesktopPet_aotstats_target::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_appdesktopPet_aotstats_target-Release-b46958d85ae41e66de0b.json",
+					"jsonFile" : "target-module_appdesktopPet_aotstats_target-Release-cce4dcdec65369c1dcc4.json",
 					"name" : "module_appdesktopPet_aotstats_target",
 					"projectIndex" : 0
 				}

@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/qt/qml/desktopPet/">
     <file alias="assets/quail.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/quail.png</file>
+    <file alias="assets/step.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/step.png</file>
+    <file alias="assets/watch.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/watch.png</file>
+    <file alias="assets/walk_background.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/walk_background.png</file>
     <file alias="assets/speak1.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/speak1.png</file>
     <file alias="assets/speak2.png">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/speak2.png</file>
     <file alias="assets/fonts/NotoSansJP-Variable.ttf">C:/Users/satoshi/Documents/desktopPet/desktopPet/assets/fonts/NotoSansJP-Variable.ttf</file>

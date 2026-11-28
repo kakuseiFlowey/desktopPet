@@ -10,47 +10,23 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "currentDate",
-                            "line": 21,
+                            "line": 20,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 32,
+                            "column": 46,
                             "durationMicroseconds": 0,
-                            "functionName": "todayContent",
+                            "functionName": "petCharacterSize",
                             "line": 22,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 5,
-                            "durationMicroseconds": 16000,
-                            "functionName": "refreshContent",
-                            "line": 25,
-                            "message": "Cannot generate efficient code for script lookup"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 5,
-                            "durationMicroseconds": 0,
-                            "functionName": "advanceDialogue",
-                            "line": 36,
-                            "message": "Cannot load property dialogue from MainWindow::todayContent with type QVariant."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "onCompleted",
-                            "line": 43,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 15000,
                             "functionName": "onTriggered",
-                            "line": 49,
+                            "line": 31,
                             "message": "Cannot generate efficient code for script lookup"
                         },
                         {
@@ -58,7 +34,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 56,
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -66,7 +42,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "margins",
-                            "line": 57,
+                            "line": 39,
                             "message": ""
                         },
                         {
@@ -74,7 +50,7 @@
                             "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 75,
+                            "line": 57,
                             "message": ""
                         },
                         {
@@ -82,119 +58,95 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 81,
+                            "line": 63,
                             "message": "Cannot generate efficient code for script lookup"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "content",
-                            "line": 89,
-                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
                             "durationMicroseconds": 0,
-                            "functionName": "dialogueIndex",
-                            "line": 90,
+                            "functionName": "currentModeId",
+                            "line": 71,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "onModeSelected",
+                            "line": 72,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "onModeSelected",
+                            "line": 72,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentIndex",
+                            "line": 81,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentDate",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "active",
+                            "line": 85,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "maximumDialogueHeight",
+                            "line": 86,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "characterSize",
+                            "line": 87,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "active",
                             "line": 91,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 28,
+                            "column": 40,
+                            "durationMicroseconds": 1000,
+                            "functionName": "maximumDialogueHeight",
+                            "line": 92,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "characterSize",
-                            "line": 99,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 108,
-                            "message": "Cannot load property dialogue from MainWindow::todayContent with type QVariant."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 125,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 104,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "preferredWidth",
-                            "line": 105,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 111,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 112,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 115,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "verticalAlignment",
-                            "line": 116,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 30,
-                            "durationMicroseconds": 0,
-                            "functionName": "weight",
-                            "line": 114,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 121,
+                            "line": 93,
                             "message": ""
                         }
                     ],

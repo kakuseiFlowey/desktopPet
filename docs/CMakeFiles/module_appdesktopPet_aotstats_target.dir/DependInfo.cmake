@@ -14,9 +14,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_MainWindow_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_MainWindow_qml.cpp"
   "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ContentView_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp"
   "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp"
   "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp"
   "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp"
+  "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats" "C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp"
   )
 
 

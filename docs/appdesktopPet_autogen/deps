@@ -1408,29 +1408,20 @@ appdesktopPet_autogen/timestamp: \
 	C:/Qt/6.12.0/wasm_singlethread/plugins/platforms/qtloader.js \
 	C:/Qt/6.12.0/wasm_singlethread/plugins/platforms/qtlogo.svg \
 	C:/Qt/6.12.0/wasm_singlethread/plugins/platforms/wasm_shell.html \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeJOMFindMake.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakePushCheckState.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-CXX.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-FindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FeatureSummary.cmake \

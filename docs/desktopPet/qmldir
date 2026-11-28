@@ -3,9 +3,17 @@ typeinfo appdesktopPet.qmltypes
 prefer :/qt/qml/desktopPet/
 MainWindow 254.0 MainWindow.qml
 ContentView 254.0 components/ContentView.qml
+ModeSelector 254.0 components/ModeSelector.qml
 PetCharacter 254.0 components/PetCharacter.qml
+PetStage 254.0 components/PetStage.qml
+PrimaryActionButton 254.0 components/PrimaryActionButton.qml
 SourceAnimation 254.0 components/SourceAnimation.qml
 SpeechBubble 254.0 components/SpeechBubble.qml
+TouchAnimation 254.0 components/TouchAnimation.qml
+EverydayMode 254.0 modes/everyday/EverydayMode.qml
+WalkBackground 254.0 modes/walk/WalkBackground.qml
+WalkMode 254.0 modes/walk/WalkMode.qml
+WalkPet 254.0 modes/walk/WalkPet.qml
 DateService 254.0 services/DateService.js
 ContentProvider 254.0 content/ContentProvider.js
 AnniversaryProvider 254.0 content/AnniversaryProvider.js

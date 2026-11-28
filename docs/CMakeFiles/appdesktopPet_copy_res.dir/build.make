@@ -59,6 +59,9 @@ CMakeFiles\appdesktopPet_copy_res: .qt\appdesktopPet_res.txt
 
 .qt\appdesktopPet_res.txt: C:\Qt\6.12.0\wasm_singlethread\lib\cmake\Qt6Qml\Qt6QmlCopyFiles.cmake
 .qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\quail.png
+.qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\step.png
+.qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\watch.png
+.qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\walk_background.png
 .qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\speak1.png
 .qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\speak2.png
 .qt\appdesktopPet_res.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\assets\fonts\NotoSansJP-Variable.ttf

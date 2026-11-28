@@ -60,9 +60,17 @@ CMakeFiles\appdesktopPet_copy_qml: .qt\appdesktopPet_qml.txt
 .qt\appdesktopPet_qml.txt: C:\Qt\6.12.0\wasm_singlethread\lib\cmake\Qt6Qml\Qt6QmlCopyFiles.cmake
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\MainWindow.qml
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ContentView.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ModeSelector.qml
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetCharacter.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetStage.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PrimaryActionButton.qml
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SourceAnimation.qml
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SpeechBubble.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\TouchAnimation.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\everyday\EverydayMode.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkBackground.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkMode.qml
+.qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkPet.qml
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\services\DateService.js
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\ContentProvider.js
 .qt\appdesktopPet_qml.txt: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\AnniversaryProvider.js

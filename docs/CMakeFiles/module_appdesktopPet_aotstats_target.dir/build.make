@@ -59,9 +59,17 @@ CMakeFiles\module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktop
 
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.aotstats
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.aotstats
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats
+.rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats
 .rcc\qmlcache\module_appdesktopPet.aotstats: .rcc\qmlcache\module_appdesktopPet.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_appdesktopPet.aotstats"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlaotstats.exe aggregate C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/module_appdesktopPet.aotstatslist C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/module_appdesktopPet.aotstats
@@ -96,6 +104,21 @@ CMakeFiles\module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktop
 .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats
 
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ModeSelector.qml
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp, .rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/ModeSelector.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_ModeSelector_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/ModeSelector.qml
+
+.rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats
+
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetCharacter.qml
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
@@ -104,12 +127,42 @@ CMakeFiles\module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktop
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PetCharacter.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetCharacter_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetCharacter.qml
 
 .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetStage.qml
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PetStage.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PetStage_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PetStage.qml
+
+.rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PrimaryActionButton.qml
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp, .rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/PrimaryActionButton.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_PrimaryActionButton_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/PrimaryActionButton.qml
+
+.rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats
 
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SourceAnimation.qml
@@ -119,7 +172,7 @@ CMakeFiles\module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktop
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/SourceAnimation.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SourceAnimation_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SourceAnimation.qml
 
@@ -134,23 +187,114 @@ CMakeFiles\module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktop
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: desktopPet\appdesktopPet.qmltypes
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp: desktopPet\qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp, .rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/SpeechBubble.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_SpeechBubble_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/SpeechBubble.qml
 
 .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats
 
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\TouchAnimation.qml
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp, .rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/components/TouchAnimation.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_components_TouchAnimation_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/components/TouchAnimation.qml
+
+.rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\everyday\EverydayMode.qml
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/everyday/EverydayMode.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_everyday_EverydayMode_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/everyday/EverydayMode.qml
+
+.rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkBackground.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkBackground.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkBackground_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkBackground.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkMode.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkMode.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkMode_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkMode.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: C:\Qt\6.12.0\mingw_64\bin\qmlcachegen.exe
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkPet.qml
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\qmake_desktopPet.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_res_0.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: .qt\rcc\appdesktopPet_raw_qml_0_extra_qmldirs.qrc
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: desktopPet\appdesktopPet.qmltypes
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp: desktopPet\qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\satoshi\Documents\desktopPet\desktopPet\docs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating .rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp, .rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/desktopPet/modes/walk/WalkPet.qml -I C:/Users/satoshi/Documents/desktopPet/desktopPet/docs -I C:/Qt/6.12.0/wasm_singlethread/qml -i C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/desktopPet/qmldir --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/qmake_desktopPet.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_res_0.qrc --resource C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.qt/rcc/appdesktopPet_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=desktopPet(appdesktopPet) -o C:/Users/satoshi/Documents/desktopPet/desktopPet/docs/.rcc/qmlcache/appdesktopPet_modes_walk_WalkPet_qml.cpp C:/Users/satoshi/Documents/desktopPet/desktopPet/modes/walk/WalkPet.qml
+
+.rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats
+
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_MainWindow_qml.cpp.aotstats
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_ContentView_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_ModeSelector_qml.cpp.aotstats
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PetCharacter_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PetStage_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_PrimaryActionButton_qml.cpp.aotstats
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_SourceAnimation_qml.cpp.aotstats
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_SpeechBubble_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_components_TouchAnimation_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_everyday_EverydayMode_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkBackground_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkMode_qml.cpp.aotstats
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp
+module_appdesktopPet_aotstats_target: .rcc\qmlcache\appdesktopPet_modes_walk_WalkPet_qml.cpp.aotstats
 module_appdesktopPet_aotstats_target: .rcc\qmlcache\module_appdesktopPet.aotstats
 module_appdesktopPet_aotstats_target: CMakeFiles\module_appdesktopPet_aotstats_target
 module_appdesktopPet_aotstats_target: CMakeFiles\module_appdesktopPet_aotstats_target.dir\build.make

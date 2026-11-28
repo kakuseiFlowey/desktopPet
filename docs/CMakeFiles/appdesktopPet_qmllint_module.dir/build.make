@@ -58,9 +58,17 @@ include CMakeFiles\appdesktopPet_qmllint_module.dir\progress.make
 CMakeFiles\appdesktopPet_qmllint_module: C:\Qt\6.12.0\mingw_64\bin\qmllint.exe
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\MainWindow.qml
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ContentView.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\ModeSelector.qml
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetCharacter.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PetStage.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\PrimaryActionButton.qml
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SourceAnimation.qml
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\SpeechBubble.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\components\TouchAnimation.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\everyday\EverydayMode.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkBackground.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkMode.qml
+CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\modes\walk\WalkPet.qml
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\services\DateService.js
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\ContentProvider.js
 CMakeFiles\appdesktopPet_qmllint_module: C:\Users\satoshi\Documents\desktopPet\desktopPet\content\AnniversaryProvider.js

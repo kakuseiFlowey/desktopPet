@@ -13,28 +13,6 @@
 			"path" : "docs/.qtcreator/cmake-helper/package-manager.cmake"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.12.0/wasm_singlethread/lib/cmake/Qt6/qt.toolchain.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.12.0/wasm_singlethread/lib/cmake/Qt6/QtPublicWasmToolchainHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "docs/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
@@ -51,11 +29,6 @@
 			"path" : "C:/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeJOMFindMake.cmake"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "docs/.qtcreator/cmake-helper/maintenance_tool_provider.cmake"
 		},
@@ -63,31 +36,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-FindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in"
 		},
 		{
 			"isGenerated" : true,
@@ -155,11 +103,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -7954,6 +7897,14 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.12.0/wasm_singlethread/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.12.0/wasm_singlethread/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.12.0/wasm_singlethread/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 		},
 		{
 			"isExternal" : true,
