@@ -7,6 +7,7 @@ Item {
     property bool active: false
     property bool stepping: false
     property real characterSize: 220
+    readonly property bool touchAnimationActive: touchAnimation.animationRunning
 
     Timer {
         interval: 500

@@ -30,6 +30,7 @@ qt_add_qml_module(appdesktopPet
         components/SpeechBubble.qml
         components/TouchAnimation.qml
         modes/everyday/EverydayMode.qml
+        modes/walk/WalkBackground.qml
         modes/walk/WalkMode.qml
         modes/walk/WalkPet.qml
         services/DateService.js
@@ -40,6 +41,7 @@ qt_add_qml_module(appdesktopPet
         assets/quail.png
         assets/step.png
         assets/watch.png
+        assets/walk_background.png
         assets/speak1.png
         assets/speak2.png
         assets/fonts/NotoSansJP-Variable.ttf

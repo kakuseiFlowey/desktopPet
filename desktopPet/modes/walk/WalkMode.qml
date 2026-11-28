@@ -65,9 +65,22 @@ Item {
         currentPrompt = candidates[Math.floor(Math.random() * candidates.length)]
     }
 
+    clip: true
+
+    WalkBackground {
+        x: walkPet.x
+        y: walkPet.y - walkPet.height * 0.3
+        width: walkPet.width
+        height: walkPet.height * 1.0
+        active: root.active
+        touchAnimationActive: walkPet.touchAnimationActive
+        z: 0
+    }
+
     ColumnLayout {
         anchors.fill: parent
         spacing: 14
+        z: 1
 
         SpeechBubble {
             Layout.fillWidth: true
@@ -76,6 +89,7 @@ Item {
         }
 
         WalkPet {
+            id: walkPet
             Layout.fillWidth: true
             Layout.fillHeight: true
             Layout.minimumHeight: 180
