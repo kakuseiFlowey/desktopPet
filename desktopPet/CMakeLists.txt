@@ -22,15 +22,22 @@ qt_add_qml_module(appdesktopPet
     QML_FILES
         MainWindow.qml
         components/ContentView.qml
+        components/ModeSelector.qml
         components/PetCharacter.qml
+        components/PetStage.qml
+        components/PrimaryActionButton.qml
         components/SourceAnimation.qml
         components/SpeechBubble.qml
+        modes/everyday/EverydayMode.qml
+        modes/walk/WalkMode.qml
+        modes/walk/WalkPet.qml
         services/DateService.js
         content/ContentProvider.js
         content/AnniversaryProvider.js
         content/data/anniversaries.js
     RESOURCES
         assets/quail.png
+        assets/step.png
         assets/speak1.png
         assets/speak2.png
         assets/fonts/NotoSansJP-Variable.ttf

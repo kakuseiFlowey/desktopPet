@@ -2,10 +2,9 @@ import QtQuick
 import QtQuick.Controls.Basic
 import QtQuick.Layouts
 import "components"
+import "modes/everyday"
+import "modes/walk"
 import "services/DateService.js" as DateService
-import "content/AnniversaryProvider.js" as AnniversaryProvider
-import "content/ContentProvider.js" as ContentProvider
-import "content/data/anniversaries.js" as AnniversaryData
 
 ApplicationWindow {
     id: window
@@ -19,28 +18,7 @@ ApplicationWindow {
     color: "#f7f5ef"
 
     property date currentDate: new Date()
-    property var todayContent: ({})
-    property int dialogueIndex: 0
-
-    function refreshContent() {
-        currentDate = new Date()
-        todayContent = AnniversaryProvider.createContent(
-                    currentDate,
-                    DateService.keyForDate(currentDate),
-                    AnniversaryData.entries,
-                    ContentProvider.createContent)
-        dialogueIndex = 0
-        petCharacter.startTalking()
-    }
-
-    function advanceDialogue() {
-        if (!todayContent.dialogue || todayContent.dialogue.length === 0)
-            return
-        dialogueIndex = (dialogueIndex + 1) % todayContent.dialogue.length
-        petCharacter.startTalking()
-    }
-
-    Component.onCompleted: refreshContent()
+    property string currentModeId: "everyday"
 
     Timer {
         interval: 60000
@@ -48,7 +26,7 @@ ApplicationWindow {
         running: true
         onTriggered: {
             if (DateService.keyForDate(window.currentDate) !== DateService.keyForDate(new Date()))
-                window.refreshContent()
+                window.currentDate = new Date()
         }
     }
 
@@ -84,46 +62,30 @@ ApplicationWindow {
             }
         }
 
-        ContentView {
+        ModeSelector {
             Layout.fillWidth: true
-            content: window.todayContent
-            dialogueIndex: window.dialogueIndex
-            maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
+            currentModeId: window.currentModeId
+            onModeSelected: function(modeId) {
+                window.currentModeId = modeId
+            }
         }
 
-        PetCharacter {
-            id: petCharacter
+        StackLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            Layout.minimumHeight: 180
-            characterSize: Math.min(width * 0.76, Math.max(170, window.height * 0.5 - 80), 300)
-        }
+            currentIndex: window.currentModeId === "walk" ? 1 : 0
 
-        Button {
-            id: nextButton
-            Layout.alignment: Qt.AlignHCenter
-            Layout.preferredWidth: Math.min(240, window.width - 48)
-            Layout.preferredHeight: 48
-            text: qsTr("つづきを聞く")
-            enabled: !!window.todayContent.dialogue && window.todayContent.dialogue.length > 1
-
-            contentItem: Label {
-                text: nextButton.text
-                color: nextButton.enabled ? "#ffffff" : "#b8c5bd"
-                font.pixelSize: 15
-                font.weight: Font.DemiBold
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
+            EverydayMode {
+                currentDate: window.currentDate
+                active: window.currentModeId === "everyday"
+                maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
             }
 
-            background: Rectangle {
-                radius: 18
-                color: nextButton.enabled ? "#719b86" : "#e4e8e3"
-                Behavior on color { ColorAnimation { duration: 160 } }
+            WalkMode {
+                active: window.currentModeId === "walk"
+                maximumDialogueHeight: Math.max(60, Math.min(130, 60 + (window.height - 500) * 0.39))
+                characterSize: Math.min(width * 0.76, Math.max(170, window.height * 0.5 - 80), 300)
             }
-
-            onClicked: window.advanceDialogue()
         }
-
     }
 }
